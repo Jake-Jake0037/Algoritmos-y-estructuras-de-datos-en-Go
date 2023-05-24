@@ -1,4 +1,4 @@
-package Algoritmos_de_busqueda
+package busqueda
 
 import "testing"
 

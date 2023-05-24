@@ -1,4 +1,4 @@
-package Algoritmos_de_busqueda
+package busqueda
 
 // LinearSearch realiza una búsqueda lineal en un array para encontrar el elemento objetivo.
 // Devuelve el índice del elemento objetivo si se encuentra, de lo contrario, devuelve -1.
