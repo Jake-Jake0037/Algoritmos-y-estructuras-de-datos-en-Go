@@ -1,7 +1,5 @@
 package ordenamento
 
-import "fmt"
-
 // Función principal que ordena un arreglo utilizando el algoritmo Merge Sort
 func MergeSort(arr []int) []int {
 	if len(arr) <= 1 {
@@ -55,12 +53,4 @@ func merge(left []int, right []int) []int {
 	}
 
 	return result
-}
-
-func main() {
-	arr := []int{5, 3, 8, 2, 1, 4}
-	fmt.Println("Arreglo original:", arr)
-
-	sortedArr := MergeSort(arr)
-	fmt.Println("Arreglo ordenado:", sortedArr)
 }
